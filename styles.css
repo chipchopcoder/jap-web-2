@@ -157,7 +157,6 @@
 
 .content-2 .author {
     align-self: flex-end;
-    font-weight: bold;
 }
 
 .sign-up {
@@ -186,4 +185,18 @@
     border: solid 2px;
     border-radius: 10px;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
+    max-width: 100%;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
 }

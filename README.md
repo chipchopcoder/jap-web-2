@@ -1,0 +1,1 @@
+so i fixed my git cuz uninstalled vscode on purpose thats why this file name has a 2 on it cuz git was acting up a bit lol

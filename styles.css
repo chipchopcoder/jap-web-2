@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -84,7 +84,7 @@
 }
 
 .content-1 .title {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -115,17 +115,48 @@
     min-height: 80;
     border-radius: 20px;
     text-align: center;
+    border-color: #1F2937;
+    border-width: 2px;
+    color: #1F2937;
+    font-size: 20px;
 }
 
-.boxes a {
+.boxes div a {
     margin-bottom: auto;
     text-decoration: none;
     font-size: 30px;
     text-align: center;
+    font-family: 'Japanese', sans-serif;
+    color: #5D3FD3;
+}
+
+.box-4 i {
     font-weight: bold;
 }
 
 
-.text {
+.content-2 {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 100px 100px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-2 .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.content-2 .sub-quote {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.content-2 .author {
+    align-self: flex-end;
     font-weight: bold;
 }
+
